@@ -7,7 +7,7 @@ export const getAsset = (path: string) => {
 const siteConfig = {
   personal: {
     name: 'Erin',
-    title: 'Christ University Student',
+    title: 'Student, Christ University',
     image: getAsset('images/erin.png.png'), // Customize or replace with your profile image
     description:
       'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
@@ -18,7 +18,7 @@ const siteConfig = {
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
     tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    location: 'Bangalore, India',
   },
 
   seo: {
@@ -26,7 +26,7 @@ const siteConfig = {
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Student', 'Aspiring Data Analysit', 'Programming and Data Science'],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -51,16 +51,16 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Graisley Primary School',
+      degree: 'Primary Education',
+      year: '2015–2017',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
     },
     {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      institution: 'Christ Academy Junior College',
+      degree: 'Pre University',
+      year: '2023–2025',
       image: getAsset('images/education/placeholder.png'),
       description: ['Key topics or skills learned'],
     },
@@ -148,7 +148,7 @@ const siteConfig = {
   ],
 
   contact: {
-    email: 'your.email@example.com',
+    email: 'erin.braggs08@gmail.com',
     linkedin: 'https://www.linkedin.com/in/your-linkedin/',
     github: 'https://github.com/your-username',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
